@@ -1,5 +1,6 @@
-CREASE DATABASE books;
-USE books;
+```
+CREASE DATABASE myorg;
+USE myorg;
 
 CREATE TABLE customers (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -30,3 +31,4 @@ VALUES ('2016-02-10', 99.99, 1),
        ('2014-12-12', 800.67, 2),
        ('2015-01-03', 12.50, 2),
        ('1999-04-11', 450.25, 5);
+```
